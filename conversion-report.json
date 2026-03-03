@@ -1,0 +1,379 @@
+{
+  "repository_url": "https://github.com/Myngruan/cobol-test.git",
+  "repository_path": "/project/repositorios/cobol-test",
+  "output_path": "/project/repositorios/cobol-test",
+  "status": "parcial",
+  "started_at": "2026-03-03T13:31:37.321809",
+  "finished_at": "2026-03-03T13:34:17.156179",
+  "duration_seconds": 159.83437,
+  "total_files_scanned": 10,
+  "total_files_converted": 7,
+  "aggregated_metrics": {
+    "total_lines_cobol": 265,
+    "total_lines_java": 0,
+    "total_paragraphs": 8,
+    "paragraphs_converted": 8,
+    "total_variables": 26,
+    "variables_converted": 26,
+    "total_commands": 0,
+    "commands_supported": 191,
+    "commands_unsupported": 5,
+    "conversion_rate_percent": 97.45,
+    "todos_generated": 10,
+    "copybooks_found": 0,
+    "copybooks_missing": 0,
+    "external_calls": 0,
+    "file_operations": 0
+  },
+  "file_reports": [
+    {
+      "cobol_file": "/project/repositorios/cobol-test/NestedIFExample.cbl",
+      "java_files": [
+        "NestedIfs.java"
+      ],
+      "status": "falha",
+      "conversion_time_seconds": 1.745,
+      "metrics": {
+        "total_lines_cobol": 31,
+        "total_lines_java": 0,
+        "total_paragraphs": 0,
+        "paragraphs_converted": 0,
+        "total_variables": 4,
+        "variables_converted": 4,
+        "total_commands": 0,
+        "commands_supported": 0,
+        "commands_unsupported": 0,
+        "conversion_rate_percent": 100.0,
+        "todos_generated": 1
+      },
+      "unconverted_items": [],
+      "todos": [
+        {
+          "file_path": "/project/repositorios/cobol-test/NestedIFExample.cbl",
+          "line_number": 0,
+          "description": "Código convertido via regras básicas. Requer revisão manual completa.",
+          "severity": "baixa",
+          "cobol_source": null,
+          "command_type": "general_review"
+        }
+      ],
+      "warnings": [],
+      "dependencies": []
+    },
+    {
+      "cobol_file": "/project/repositorios/cobol-test/IF-Example.cbl",
+      "java_files": [
+        "IfExample.java"
+      ],
+      "status": "falha",
+      "conversion_time_seconds": 1.772,
+      "metrics": {
+        "total_lines_cobol": 18,
+        "total_lines_java": 0,
+        "total_paragraphs": 0,
+        "paragraphs_converted": 0,
+        "total_variables": 1,
+        "variables_converted": 1,
+        "total_commands": 0,
+        "commands_supported": 0,
+        "commands_unsupported": 0,
+        "conversion_rate_percent": 100.0,
+        "todos_generated": 1
+      },
+      "unconverted_items": [],
+      "todos": [
+        {
+          "file_path": "/project/repositorios/cobol-test/IF-Example.cbl",
+          "line_number": 0,
+          "description": "Código convertido via regras básicas. Requer revisão manual completa.",
+          "severity": "baixa",
+          "cobol_source": null,
+          "command_type": "general_review"
+        }
+      ],
+      "warnings": [],
+      "dependencies": []
+    },
+    {
+      "cobol_file": "/project/repositorios/cobol-test/Multiply.cbl",
+      "java_files": [
+        "Multip.java"
+      ],
+      "status": "parcial",
+      "conversion_time_seconds": 2.287,
+      "metrics": {
+        "total_lines_cobol": 47,
+        "total_lines_java": 0,
+        "total_paragraphs": 2,
+        "paragraphs_converted": 2,
+        "total_variables": 10,
+        "variables_converted": 10,
+        "total_commands": 0,
+        "commands_supported": 20,
+        "commands_unsupported": 4,
+        "conversion_rate_percent": 83.33,
+        "todos_generated": 5
+      },
+      "unconverted_items": [],
+      "todos": [
+        {
+          "file_path": "/project/repositorios/cobol-test/Multiply.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "ACCEPT Number1",
+          "command_type": "accept"
+        },
+        {
+          "file_path": "/project/repositorios/cobol-test/Multiply.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "ACCEPT Number2",
+          "command_type": "accept"
+        },
+        {
+          "file_path": "/project/repositorios/cobol-test/Multiply.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "ACCEPT Number3",
+          "command_type": "accept"
+        },
+        {
+          "file_path": "/project/repositorios/cobol-test/Multiply.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "ACCEPT Number4",
+          "command_type": "accept"
+        },
+        {
+          "file_path": "/project/repositorios/cobol-test/Multiply.cbl",
+          "line_number": 0,
+          "description": "Código convertido via regras básicas. Requer revisão manual completa.",
+          "severity": "baixa",
+          "cobol_source": null,
+          "command_type": "general_review"
+        }
+      ],
+      "warnings": [],
+      "dependencies": []
+    },
+    {
+      "cobol_file": "/project/repositorios/cobol-test/Message.cbl",
+      "java_files": [
+        "Predefmsg.java"
+      ],
+      "status": "falha",
+      "conversion_time_seconds": 2.588,
+      "metrics": {
+        "total_lines_cobol": 12,
+        "total_lines_java": 0,
+        "total_paragraphs": 0,
+        "paragraphs_converted": 0,
+        "total_variables": 1,
+        "variables_converted": 1,
+        "total_commands": 0,
+        "commands_supported": 0,
+        "commands_unsupported": 0,
+        "conversion_rate_percent": 100.0,
+        "todos_generated": 1
+      },
+      "unconverted_items": [],
+      "todos": [
+        {
+          "file_path": "/project/repositorios/cobol-test/Message.cbl",
+          "line_number": 0,
+          "description": "Código convertido via regras básicas. Requer revisão manual completa.",
+          "severity": "baixa",
+          "cobol_source": null,
+          "command_type": "general_review"
+        }
+      ],
+      "warnings": [],
+      "dependencies": []
+    },
+    {
+      "cobol_file": "/project/repositorios/cobol-test/HelloWorld.cbl",
+      "java_files": [
+        "Helloworld.java"
+      ],
+      "status": "sucesso",
+      "conversion_time_seconds": 25.061,
+      "metrics": {
+        "total_lines_cobol": 7,
+        "total_lines_java": 0,
+        "total_paragraphs": 0,
+        "paragraphs_converted": 0,
+        "total_variables": 0,
+        "variables_converted": 0,
+        "total_commands": 0,
+        "commands_supported": 12,
+        "commands_unsupported": 0,
+        "conversion_rate_percent": 100.0,
+        "todos_generated": 0
+      },
+      "unconverted_items": [],
+      "todos": [],
+      "warnings": [],
+      "dependencies": []
+    },
+    {
+      "cobol_file": "/project/repositorios/cobol-test/PerformTimes.cbl",
+      "java_files": [
+        "Performthroughexample.java"
+      ],
+      "status": "sucesso",
+      "conversion_time_seconds": 30.691,
+      "metrics": {
+        "total_lines_cobol": 20,
+        "total_lines_java": 0,
+        "total_paragraphs": 1,
+        "paragraphs_converted": 1,
+        "total_variables": 1,
+        "variables_converted": 1,
+        "total_commands": 0,
+        "commands_supported": 30,
+        "commands_unsupported": 0,
+        "conversion_rate_percent": 100.0,
+        "todos_generated": 0
+      },
+      "unconverted_items": [],
+      "todos": [],
+      "warnings": [],
+      "dependencies": []
+    },
+    {
+      "cobol_file": "/project/repositorios/cobol-test/UserInput.cbl",
+      "java_files": [
+        "Userinput.java"
+      ],
+      "status": "sucesso",
+      "conversion_time_seconds": 41.22,
+      "metrics": {
+        "total_lines_cobol": 12,
+        "total_lines_java": 0,
+        "total_paragraphs": 0,
+        "paragraphs_converted": 0,
+        "total_variables": 1,
+        "variables_converted": 1,
+        "total_commands": 0,
+        "commands_supported": 30,
+        "commands_unsupported": 0,
+        "conversion_rate_percent": 100.0,
+        "todos_generated": 0
+      },
+      "unconverted_items": [],
+      "todos": [],
+      "warnings": [],
+      "dependencies": []
+    },
+    {
+      "cobol_file": "/project/repositorios/cobol-test/IncrementExample.cbl",
+      "java_files": [
+        "Increment.java"
+      ],
+      "status": "sucesso",
+      "conversion_time_seconds": 43.333,
+      "metrics": {
+        "total_lines_cobol": 23,
+        "total_lines_java": 0,
+        "total_paragraphs": 1,
+        "paragraphs_converted": 1,
+        "total_variables": 3,
+        "variables_converted": 3,
+        "total_commands": 0,
+        "commands_supported": 44,
+        "commands_unsupported": 0,
+        "conversion_rate_percent": 100.0,
+        "todos_generated": 0
+      },
+      "unconverted_items": [],
+      "todos": [],
+      "warnings": [],
+      "dependencies": []
+    },
+    {
+      "cobol_file": "/project/repositorios/cobol-test/PerformExample.cbl",
+      "java_files": [
+        "Performexample.java"
+      ],
+      "status": "sucesso",
+      "conversion_time_seconds": 48.595,
+      "metrics": {
+        "total_lines_cobol": 44,
+        "total_lines_java": 0,
+        "total_paragraphs": 3,
+        "paragraphs_converted": 3,
+        "total_variables": 5,
+        "variables_converted": 5,
+        "total_commands": 0,
+        "commands_supported": 54,
+        "commands_unsupported": 0,
+        "conversion_rate_percent": 100.0,
+        "todos_generated": 0
+      },
+      "unconverted_items": [],
+      "todos": [],
+      "warnings": [],
+      "dependencies": []
+    },
+    {
+      "cobol_file": "/project/repositorios/cobol-test/SeqFileExample.cbl",
+      "java_files": [
+        "Seqfileexample.java"
+      ],
+      "status": "parcial",
+      "conversion_time_seconds": 86.816,
+      "metrics": {
+        "total_lines_cobol": 51,
+        "total_lines_java": 0,
+        "total_paragraphs": 1,
+        "paragraphs_converted": 1,
+        "total_variables": 0,
+        "variables_converted": 0,
+        "total_commands": 0,
+        "commands_supported": 1,
+        "commands_unsupported": 1,
+        "conversion_rate_percent": 50.0,
+        "todos_generated": 2
+      },
+      "unconverted_items": [],
+      "todos": [
+        {
+          "file_path": "/project/repositorios/cobol-test/SeqFileExample.cbl",
+          "line_number": 0,
+          "description": "Comando não suportado",
+          "severity": "baixa",
+          "cobol_source": "ACCEPT UserRecord",
+          "command_type": "accept"
+        },
+        {
+          "file_path": "/project/repositorios/cobol-test/SeqFileExample.cbl",
+          "line_number": 0,
+          "description": "Código convertido via regras básicas. Requer revisão manual completa.",
+          "severity": "baixa",
+          "cobol_source": null,
+          "command_type": "general_review"
+        }
+      ],
+      "warnings": [],
+      "dependencies": []
+    }
+  ],
+  "global_warnings": [],
+  "assumptions": [
+    "Variáveis PIC 9 são mapeadas para int/long baseado no tamanho",
+    "Variáveis PIC X são mapeadas para String",
+    "Variáveis com V (decimal) são mapeadas para BigDecimal",
+    "Parágrafos COBOL são convertidos para métodos públicos",
+    "WORKING-STORAGE são convertidos para campos privados da classe"
+  ],
+  "limitations": [
+    "EXEC SQL requer conversão manual para JDBC/JPA",
+    "EXEC CICS requer conversão manual para API REST",
+    "Copybooks não resolvidos geram stubs",
+    "Aritmética de ponto fixo pode ter diferenças de precisão"
+  ]
+}
