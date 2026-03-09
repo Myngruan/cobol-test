@@ -1,0 +1,170 @@
+package com.converted.cobol;
+
+/**
+ * Classe convertida do programa COBOL: PerformExample
+ * 
+ * Arquivo original: PerformExample.cbl
+ * 
+ * ⚠️ Conversão via regras - revisar manualmente
+ *
+ * @generated Conversão automática COBOL → Java 21
+ * @since 2026-03-09
+ */
+public class Performexample {
+
+    // ========== Campos ==========
+
+    /** Origem COBOL: UserInitials
+    PIC: x(10) */
+    private String userinitials;
+    /** Origem COBOL: A
+    PIC: 999 */
+    private int a;
+    /** Origem COBOL: B
+    PIC: 999 */
+    private int b;
+    /** Origem COBOL: Result
+    PIC: 999999 */
+    private int result;
+    /** Origem COBOL: Formatted
+    PIC: Z(10) */
+    private String formatted;
+
+    // ========== Construtor ==========
+
+    public Performexample() {
+        // Inicialização padrão
+        this.a = 30;
+        this.b = 20;
+    }
+
+    // ========== Métodos ==========
+
+    /**
+     * Origem COBOL: FirstStage
+     */
+    public void firststage() {
+        System.out.println("------------------");
+                System.out.println("This is the first stage of the program");
+                // TODO: [CONVERSÃO MANUAL NECESSÁRIA] Comando COBOL não suportado
+                // Original: "
+                // Tipo: unknown
+                throw new UnsupportedOperationException("Conversão manual necessária: unknown");
+                System.out.println("");
+                // TODO: [CONVERSÃO MANUAL NECESSÁRIA] Comando COBOL não suportado
+                // Original: and next we're at???"
+                // Tipo: unknown
+                throw new UnsupportedOperationException("Conversão manual necessária: unknown");
+                System.out.println("------------------");
+                thirdstage();
+                System.out.println("------------------");
+                System.out.println("Previous one was Third Stage and now we're at 1st");
+                // TODO: [CONVERSÃO MANUAL NECESSÁRIA] Comando COBOL não suportado
+                // Original: "
+                // Tipo: unknown
+                throw new UnsupportedOperationException("Conversão manual necessária: unknown");
+                System.out.println("Alas we've ran out lines");
+                // TODO: [CONVERSÃO MANUAL NECESSÁRIA] Comando COBOL não suportado
+                // Original: "
+                // Tipo: unknown
+                throw new UnsupportedOperationException("Conversão manual necessária: unknown");
+                System.out.println("------------------");
+                return; // STOP RUN
+    }
+
+    /**
+     * Origem COBOL: SecondStage
+     */
+    public void secondstage() {
+        // Convertido via LLM (comandos não suportados: 3)
+        {
+            System.out.println("You have reached Second Stage.");
+            System.out.print("Please enter your initials: "); // Usando print para que a entrada seja na mesma linha
+        
+            // TODO: A fonte de entrada (System.in) é uma suposição. Em uma aplicação real,
+            // a entrada pode vir de uma UI ou de outra fonte de dados.
+            // Um único objeto Scanner compartilhado pode ser preferível a criar um novo a cada vez.
+            java.util.Scanner scanner = new java.util.Scanner(System.in);
+            this.userinitials = scanner.nextLine();
+        
+            System.out.println("Hello " + this.userinitials);
+            System.out.println("I wonder what's the next destination...");
+        }
+    }
+
+    /**
+     * Origem COBOL: ThirdStage
+     */
+    public void thirdstage() {
+        System.out.println("You've reached the third stage (instead of second)");
+                // TODO: [CONVERSÃO MANUAL NECESSÁRIA] Comando COBOL não suportado
+                // Original: "
+                // Tipo: unknown
+                throw new UnsupportedOperationException("Conversão manual necessária: unknown");
+                System.out.println("Here we like maths");
+                // TODO: [CONVERSÃO MANUAL NECESSÁRIA] Comando COBOL não suportado
+                // Original: "
+                // Tipo: unknown
+                throw new UnsupportedOperationException("Conversão manual necessária: unknown");
+                result = a * b; // ou a.multiply(b) para BigDecimal
+                formatted = String.valueOf(result);
+                System.out.println("We multiplied 30 with 20 and got " + formatted);
+                System.out.println("Next we'll jump to the Second Stage");
+                // TODO: [CONVERSÃO MANUAL NECESSÁRIA] Comando COBOL não suportado
+                // Original: "
+                // Tipo: unknown
+                throw new UnsupportedOperationException("Conversão manual necessária: unknown");
+                System.out.println("--------------------------");
+                secondstage();
+    }
+
+    /**
+     * Ponto de entrada do programa
+     */
+    public static void main(String[] args) {
+        new Performexample().firststage();
+    }
+
+    // ========== Getters e Setters ==========
+
+    public String getUserinitials() {
+        return this.userinitials;
+    }
+    
+    public void setUserinitials(String userinitials) {
+        this.userinitials = userinitials;
+    }
+
+    public int getA() {
+        return this.a;
+    }
+    
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public int getB() {
+        return this.b;
+    }
+    
+    public void setB(int b) {
+        this.b = b;
+    }
+
+    public int getResult() {
+        return this.result;
+    }
+    
+    public void setResult(int result) {
+        this.result = result;
+    }
+
+    public String getFormatted() {
+        return this.formatted;
+    }
+    
+    public void setFormatted(String formatted) {
+        this.formatted = formatted;
+    }
+
+}
